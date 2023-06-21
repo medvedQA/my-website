@@ -1,0 +1,130 @@
+body {
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+    color: #fafafa;
+}
+
+#gradient {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+header{
+    margin-left: 100px;
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    margin-top: -100px;
+    font-family: 'Cabin', sans-serif;
+    text-shadow:
+        -10px -10px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+.avatar{
+    background-image: url("photos/avatar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;;
+    width: 500px;
+    margin-left: 400px;
+    border-radius: 100%;
+    transition: border-radius 0.3s ease-in-out;
+}
+
+.avatar:hover{
+    border-radius: 15%;
+}
+
+ul{
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+}
+
+li:nth-child(2) {
+    margin-left: 300px;
+    text-shadow:
+            -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.details{
+    font-family: 'Cabin', sans-serif;
+    font-size: 70px;
+}
+
+.part2{
+    background-color: rgba(0, 0, 0, 0.166);
+    margin-top: -80px;
+
+}
+
+.download-button {
+    margin-left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+footer{
+    margin-left: 710px;
+    font-size: 25px;
+    font-family: 'Cabin', sans-serif;
+}
+
+footer h1{
+    text-shadow:
+            -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+}
+
+footer p{
+    margin-left: -730px;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.684);
+    z-index: -1;
+}
