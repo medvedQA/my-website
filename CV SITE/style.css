@@ -7,16 +7,6 @@ body {
     color: #fafafa;
 }
 
-#gradient {
-    width: 100%;
-    height: 100vh;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-}
 
 header{
     margin-left: 100px;
